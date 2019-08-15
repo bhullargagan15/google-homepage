@@ -41,6 +41,7 @@ nav a{
 a {
     text-decoration: none;
     padding: 10px 12px;
+    font-size: 0.8em;
 }
 
 a:hover {
@@ -61,8 +62,60 @@ a:hover {
 
 /*Center page styling*/
 
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    display: grid;
+
+}
+
 .logo img {
-    width: 40%;
+    justify-self: center;
+    width: 35%;
+}
+
+form {
+    display: grid;
+}
+
+form * {
+    justify-self: center;
+}
+
+form input[type=text] {
+    width: 35%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 0.5px solid #efefef;
+    border-radius: 50px;
+}
+
+form input[type=text]:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+form input[type=submit] {
+    padding: 7px 12px;
+    border: 1px solid #f1f1f1;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    color: #777;
+    margin:5px;
+}
+
+form input[type=submit]:hover {
+    border: 1px solid #e4e4e4;
+    cursor: pointer;
+}
+
+form p {
+    font-size: 0.8em;
+    padding-top: 25px;
 }
 
 
@@ -77,15 +130,17 @@ footer {
 }
 
 .footer-content-1{
-    color: #555;
+    color: #777;
     padding: 10px 15px;
     border-bottom: 1.1px solid #e4e4e4;
 }
 
 .footer-content-2 {
     display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
 }
 
 .footer-content-2 a{
-    color: #555;
+    color: #777;
 }
