@@ -5,51 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link href="./style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class="nav-left">
-            <a href="#" class="nav-link">About</a>
-            <a href="#" class="nav-link">Store</a>
-        </div>
-        <div class="nav-right">
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <a href="#" class="link-square"></a>
-            <a href="#" class="link-signin"></a>
-        </div>
-
-    </nav>
-
-    <main>
-        <div class="logo">
-            <img src="#" alt="Google Logo">
-        </div>
-        <form action="google.com/" method="GET" name="google-search">
-            <input type="text" name="search-input" id="search-input">
-            <br/>
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky">
-            <br/>
-            <p class="small-text">Google offered in: <a href="#">Francais</a></p>
-        </form>
-        
-    </main>
-
-    <footer>
-        <div class="footer-content">Canada</div>
-        <div class="footer-content">
-            <div class="footer-links">
-                <a href="#">Advertising</a>
-                <a href="#">Business</a>
-                <a href="#">How Search Works</a>
+    <div class="container">
+        <nav>
+            <div class="nav-left">
+                <a href="#" class="nav-link link-plain">About</a>
+                <a href="#" class="nav-link link-plain">Store</a>
             </div>
-            <div class="footer-links">
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Settings</a>
+            <div class="nav-right">
+                <a href="#" class="link-plain">Gmail</a>
+                <a href="#" class="link-plain">Images</a>
+                <a href="#" class="link-square"></a>
+                <a href="#" class="link-signin">Sign In</a>
             </div>
-        </div>
-    </footer>
+
+        </nav>
+
+        <main>
+            <div class="logo">
+                <img src="./images/google.png" alt="Google Logo">
+            </div>
+            <form action="google.com/" method="GET" name="google-search">
+                <input type="text" name="search-input" id="search-input">
+                <br/>
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky">
+                <br/>
+                <p class="small-text">Google offered in: <a href="#">Francais</a></p>
+            </form>
+            
+        </main>
+
+        <footer>
+            <div class="footer-content-1">Canada</div>
+            <div class="footer-content-2">
+                <div class="footer-links">
+                    <a href="#" class="link-plain">Advertising</a>
+                    <a href="#" class="link-plain">Business</a>
+                    <a href="#" class="link-plain">How Search Works</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#" class="link-plain">Privacy</a>
+                    <a href="#" class="link-plain">Terms</a>
+                    <a href="#" class="link-plain">Settings</a>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
